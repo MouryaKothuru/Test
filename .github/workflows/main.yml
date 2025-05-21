@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  execute:
+    uses: MouryaKothuru/Training/.github/workflows/Script.yml@main
+    secrets: inherit
+    
